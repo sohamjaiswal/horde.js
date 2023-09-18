@@ -5,15 +5,13 @@ JS/TS Wrapper for the Stable Horde API. With internal caching and typings. Suita
 ## Usage
 
 ```ts
-  import {HordeClient, type GenerationInputStable, type PostProcessors} from 'horde.js'
+  import {HordeClient, samplers, postProcessors, type GenerationInputStable, type PostProcessors} from 'horde.js'
   const hordeClient = new HordeClient(
     PUBLIC_HORDE_CLIENT_NAME,
     PUBLIC_HORDE_CLIENT_VERSION,
     PUBLIC_HORDE_CLIENT_CONTACT
   )
   const token = $page.data.user.hordeKey || "0000000000"
-  const samplers = ["k_lms", "k_heun", "k_euler" , "k_euler_a" ,"k_dpm_2" , "k_dpm_2_a" , "k_dpm_fast" , "k_dpm_adaptive" , "k_dpmpp_2s_a" , "k_dpmpp_2m" , "dpmsolver" , "k_dpmpp_sde" , "DDIM"] 
-  const postProcessors = ["GFPGAN", "RealESRGAN_x4plus", "RealESRGAN_x2plus", "RealESRGAN_x4plus_anime_6B", "NMKD_Siax", "4x_AnimeSharp", "CodeFormers", "strip_background"]
     let genReq: GenerationInputStable = {
     prompt: "",
     models: ["stable_diffusion"],

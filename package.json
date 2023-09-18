@@ -18,7 +18,8 @@
   "private": false,
   "devDependencies": {
     "bun-types": "latest",
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

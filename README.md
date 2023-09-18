@@ -1,15 +1,3 @@
 # horde.js
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run src/index.ts
-```
-
-This project was created using `bun init` in bun v1.0.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+JS/TS Wrapper for the Stable Horde API. With internal caching and typings. Suitable for Server and Client applications.

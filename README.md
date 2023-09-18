@@ -76,3 +76,13 @@ JS/TS Wrapper for the Stable Horde API. With internal caching and typings. Suita
     console.log(res)
   }
 ```
+
+## Conception 
+This wrapper was made for my diffusion project... available at https://github.com/ghorde/diffusion
+
+Tried to use the wrapper already available, but failed.
+
+## Contribution Guidelines
+
+Please use JSDoc and TypeScript to their maximum, document everything well and keep name schemes consistent.
+

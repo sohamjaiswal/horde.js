@@ -1,6 +1,6 @@
 {
   "name": "horde.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JS/TS Wrapper for the Stable Horde API. With internal caching and typings. Suitable for Server and Client applications.",
   "module": "src/index.ts",
   "type": "module",

@@ -1,0 +1,24 @@
+{
+  "name": "horde.js",
+  "version": "1.0.0",
+  "description": "JS/TS Wrapper for the Stable Horde API. With internal caching and typings. Suitable for Server and Client applications.",
+  "module": "src/index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "Soham Jaiswal <ham@kodski.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

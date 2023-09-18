@@ -14,9 +14,11 @@
   },
   "author": "Soham Jaiswal <ham@kodski.com>",
   "license": "MIT",
+  "repository": "git@github.com:sohamjaiswal/horde.js.git",
   "private": false,
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "tsc": "^2.0.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
